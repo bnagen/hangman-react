@@ -1,0 +1,1 @@
+export const dictionary = ["cat","dog","Lebron","Lakers","Alphabet","noodles", "sauce"]
