@@ -6,13 +6,13 @@ import WrongLetters from './components/WrongLetters';
 import Word from './components/Word';
 import Popup from './components/Popup';
 import Notification from './components/Notification';
-import { showNotification as show, checkWin } from './helpers/Helpers';
+import { showNotification as show} from './helpers/Helpers';
 import { dictionary } from './components/Dictionary';
 
 
 
 
-console.log(dictionary);
+//console.log(dictionary);
 let selectedWord = dictionary[Math.floor(Math.random() * dictionary.length)];
 
 
@@ -21,18 +21,7 @@ function App() {
   const [correctLetters, setCorrectLetters] = useState([]);
   const [wrongLetters, setWrongLetters] = useState([]);
   const [showNotification, setShowNotification] = useState(false);
-  const [word, setWord] = useState(null);
-
   
-  // useEffect(() => {
-  //   fetch("https://random-word-api.herokuapp.com/word?number=5&swear=0")
-  //   .then(res => res.json())
-  //   .then(data => setWord(data))
-  // }, [])
-
-  // console.log(word);
-  // let selectedWord = word[0];
-
   useEffect(() => {
     const handleKeydown = event => {
       const { key, keyCode } = event;
