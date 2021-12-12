@@ -1,1 +1,1 @@
-export const dictionary = ["cat","dog","lebron","lakers","alphabet","noodles", "sauce", "westbrook", "wardell" ]
+export const dictionary = ["cat","dog","raid","return","gravity","recommend", "federation", "aviation", "outside" , "evolution" ,"linger" ,"constitution" , "conglomerate" ,"philosophy" ,"miserable" ,"argument" ,"plane"]
