@@ -19,6 +19,10 @@ body {
   margin: 10px 10px 10px 150px;
 }
 
+.text {
+  font-size:x-large;
+
+}
 button[class^='button-style']:hover,
 a[class^='button-style']:hover,
 input[class^='button-style']:hover {
